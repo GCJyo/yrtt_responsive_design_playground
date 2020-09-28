@@ -1,15 +1,27 @@
-/* Example media query
-@media only screen and (min-width: 500px) {
-    body {
-        background-color: salmon;
-    }
-}  */
-
+/* Example media query*/
 body {
     background-color: salmon;
 }
-
 img {
     max-width: 100%;
 }
-
+@media only screen and (min-width: 550px) {
+    body {
+        background-color: rgb(81, 48, 112);
+    }
+}  
+@media only screen and (min-width: 576px) {
+    body {
+        background-color: lightgreen;
+    }
+}
+@media only screen and (min-width: 720px) {
+    body {
+        background-color: rgb(212, 143, 212);
+    }
+}
+@media only screen and (min-width: 960px) {
+    body {
+        background-color: rgb(140, 140, 240);
+    }
+}
